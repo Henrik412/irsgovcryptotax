@@ -6,6 +6,7 @@ import HomeHero from '@/components/HomeHero';
 import QuickLinks from '@/components/QuickLinks';
 import NewsSection from '@/components/NewsSection';
 import AlertBanner from '@/components/AlertBanner';
+import TaxNotice from '@/components/TaxNotice';
 
 const Index: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Index: React.FC = () => {
       <Header />
       <main className="flex-grow">
         <HomeHero />
+        <TaxNotice />
         <QuickLinks />
         <NewsSection />
       </main>
